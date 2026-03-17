@@ -1,0 +1,9 @@
+[
+    { "id": 1, "name": "Favorite", "type": "boolean", "description": "marked as favorite" },
+    { "id": 2, "name": "German", "type": "integer", "min": 1, "max": 5, "description": "how much I like the name in German" },
+    { "id": 3, "name": "English", "type": "integer", "min": 1, "max": 5, "description": "how much I like the name in English" },
+    { "id": 4, "name": "Exotic", "type": "integer", "min": 1, "max": 5, "description": "how exotic the name is" },
+    { "id": 5, "name": "Relatives", "type": "boolean", "description": "there is a relative with this name" },
+    { "id": 6, "name": "Friends", "type": "boolean", "description": "there is a friend with this name" },
+    { "id": 7, "name": "Colleagues", "type": "boolean", "description": "there is a colleague with this name" }
+]
