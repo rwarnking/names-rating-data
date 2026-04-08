@@ -1,10 +1,65 @@
 [
-    { "id": 1, "name": "Favorite", "type": "boolean", "variant": "include", "description": "marked as favorite" },
-    { "id": 2, "name": "German", "type": "integer", "variant": "score", "min": 1, "max": 5, "description": "how much I like the name in German" },
-    { "id": 3, "name": "English", "type": "integer", "variant": "score", "min": 1, "max": 5, "description": "how much I like the name in English" },
-    { "id": 4, "name": "Exotic", "type": "integer", "variant": "score", "min": 1, "max": 5, "description": "how exotic the name is" },
-    { "id": 5, "name": "Relatives", "type": "boolean", "variant": "exclude", "description": "there is a relative with this name" },
-    { "id": 6, "name": "Friends", "type": "boolean", "variant": "exclude", "description": "there is a friend with this name" },
-    { "id": 7, "name": "Colleagues", "type": "boolean", "variant": "exclude", "description": "there is a colleague with this name" },
-    { "id": 8, "name": "Other", "type": "boolean", "variant": "exclude", "description": "there is a colleague with this name" }
+  {
+    "id": 1,
+    "name": "Favorite",
+    "type": "boolean",
+    "variant": "include",
+    "description": "marked as favorite",
+    "example": ""
+  },{
+    "id": 2,
+    "name": "German",
+    "type": "integer",
+    "variant": "score",
+    "min": 1,
+    "max": 5,
+    "description": "how much I like the sound/writing of the name in German",
+    "example": "Maybe you like how the name 'Stefan' sounds in German, but do not like it at all in English. Then, you should give it a <b>high</b> score for this category. "
+  },{
+    "id": 3,
+    "name": "English",
+    "type": "integer",
+    "variant": "score",
+    "min": 1,
+    "max": 5,
+    "description": "how much I like the sound/writing of the name in English",
+    "example": "Maybe you hate how the name 'Stefan' sounds in English, but like it in German. Then, you should give it a <b>low</b> score for this category. "
+  },{
+    "id": 4,
+    "name": "Exotic",
+    "type": "integer",
+    "variant": "score",
+    "min": 1,
+    "max": 5,
+    "description": "how exotic the name is",
+    "example": "This score should reflect how unique or uncommon the name feels <b>to you</b>."
+  },{
+    "id": 5,
+    "name": "Relatives",
+    "type": "boolean",
+    "variant": "exclude",
+    "description": "you have a relative with this name",
+    "example": ""
+  },{
+    "id": 6,
+    "name": "Friends",
+    "type": "boolean",
+    "variant": "exclude",
+    "description": "you have a friend with this name",
+    "example": ""
+  },{
+    "id": 7,
+    "name": "Colleagues",
+    "type": "boolean",
+    "variant": "exclude",
+    "description": "you have a colleague with this name",
+    "example": ""
+  },{
+    "id": 8,
+    "name": "Other",
+    "type": "boolean",
+    "variant": "exclude",
+    "description": "you have some other reason for excluding this name",
+    "example": ""
+  }
 ]
